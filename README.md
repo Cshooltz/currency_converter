@@ -1,16 +1,12 @@
-# currency_converter
+# Flutter Currency Converter
 
-A new Flutter project.
+This is a practice project inspired by the currency converter tutorial provided by Tutorials.EU. The original tutorial uses C#, WPF, and Microsoft SQL database on Windows, and can be found here: https://tutorials.eu/build-a-currency-converter-application-using-wpf-in-c-with-database/. I have adapted the project to use Dart, Flutter, and MySQL/Sqlite instead. The project can run on desktop and mobile. Web is not supported.
 
-## Getting Started
+If you want to setup and run this project yourself, you will need to download and install Flutter for your platform per the documentation on https://Flutter.dev. Once complete, you will need to clone this repository as well as [Spark Lib](https://github.com/Cshooltz/spark_lib) into the same parent directory. The Currency Converter project expects the `spark_lib` folder to be in the same directory as itself. With all that done, you can run `flutter pub get` then `flutter run` to run the project in debug mode.
 
-This project is a starting point for a Flutter application.
+Also note, if you do run this project, it is currently configured to use my API key from https://openexchangerates.org/. If you plan on building and running the app a lot, for whatever reason, I recommend getting and using your own API key since each free tier key has limited uses per month.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Screenshots
+![Desktop Converter Screen](docs/screenshots/Converter%20screen.png)
+![Desktop Converter Screen](docs/screenshots/Editor%20screen.png)
+![Desktop Converter Screen](docs/screenshots/Mobile%20converter.png)
